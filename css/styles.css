@@ -1,0 +1,14 @@
+.dark-mode {
+  background-color: #333c41;
+  color: #f3f3f3;
+}
+
+.normal-mode {
+  background-color: #f3f3f3;
+  color: #333c41;
+}
+
+.bright-mode {
+  background-color: #fff;
+  color: #000;
+}
