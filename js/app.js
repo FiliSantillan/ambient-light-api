@@ -2,17 +2,18 @@
   "use strict";
 
   window.addEventListener('devicelight', function(e) {
-    var $body = document.getElementByID("body"),
-        $light = e.value
+    var $body = document.getElementById("body"),
+        $text = document.getElementById("text"),
+        $lux = e.value;
 
-    console.log($light);
+    $text.textContent = "Lux: " + $lux;
 
-    if($light < 50)  {
+    if($lux < 5)  {
       $body.classList.add("dark-mode");
       $body.classList.remove("normal-mode", "bright-mode");
     }
 
-    else if($light >= 50 && $light <= 1500){
+    else if($lux >= 5 && $lux <= 1500){
       $body.classList.add("normal-mode")
       $body.classList.remove("dark-mode", "bright-mode");
     }
