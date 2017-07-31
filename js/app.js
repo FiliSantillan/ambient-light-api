@@ -6,7 +6,7 @@
         $text = document.getElementById("text"),
         $lux = e.value;
 
-    $text.textContent = "Lux: " + $lux;
+    $text.textContent = $lux + " lux";
 
     if($lux < 5)  {
       $body.classList.add("dark-mode");
