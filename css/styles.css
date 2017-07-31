@@ -1,0 +1,41 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  transition: 0.5s;
+}
+
+.container {
+  text-align: center;
+}
+
+.title{
+  font-size: 4em;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  padding: 0.5em 0;
+  box-sizing: border-box;
+}
+
+.text{
+  display: block;
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
+.dark-mode {
+  background-color: #333c41;
+  color: #f3f3f3;
+}
+
+.normal-mode {
+  background-color: #f3f3f3;
+  color: #333c41;
+}
+
+.bright-mode {
+  background-color: #fff;
+  color: #000;
+}
